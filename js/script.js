@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const contentLinks = document.querySelectorAll('.content a');
     const warningMessage = document.createElement('div');
     warningMessage.classList.add('warning-message');
     warningMessage.textContent = 'Text copied !';
